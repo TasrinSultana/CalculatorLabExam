@@ -510,32 +510,31 @@ public class MainActivity extends AppCompatActivity {
     }
     private String calculate() {
         String result="";
-        switch (op){
-            case "+" :
-                result=Calculation.add(v1,v2);
+        switch (op) {
+            case "+":
+                result = Calculation.add(v1, v2);
                 break;
-            case  "-":
-                result=Calculation.subtract(v1,v2);
+            case "-":
+                result = Calculation.subtract(v1, v2);
                 break;
-            case  "x":
-                result=Calculation.multiply(v1,v2);
+            case "x":
+                result = Calculation.multiply(v1, v2);
                 break;
-            case  "/":
-                result=Calculation.division(v1,v2);
+            case "/":
+                result = Calculation.division(v1, v2);
                 break;
             case "^":
-                result=Calculation.power(v1,v2);
+                result = Calculation.power(v1, v2);
                 break;
             case "√":
-                result=Calculation.root(v1,v2);
+                result = Calculation.root(v1, v2);
                 break;
             case "%":
-                result=Calculation.modulas(v1,v2);
+                result = Calculation.modulas(v1, v2);
                 break;
             default:
                 break;
         }
-        //op_flag=false;
         op="+";
         v2="";
 
