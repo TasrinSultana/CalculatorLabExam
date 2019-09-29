@@ -8,4 +8,28 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="ActionButtonStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.25</item>
+        <item name="android:background">@color/light_salmon</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="NumberButtonStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.25</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    android:layout_width="0dp"
+    android:textSize="25sp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:layout_weight="0.25"
+
 </resources>
